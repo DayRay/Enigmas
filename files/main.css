@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#timer {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
